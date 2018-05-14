@@ -1,0 +1,22 @@
+.navbar {
+    
+    text-align: center;
+}
+.navbar > ul {
+    list-style: none;
+}
+.navbar-header {
+    font-size: 19px;
+}
+.navbar__list {
+    padding: 5px;
+}
+.navbar__list__item {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    @include extra-small-only {
+        display: block;
+        
+    }
+}
